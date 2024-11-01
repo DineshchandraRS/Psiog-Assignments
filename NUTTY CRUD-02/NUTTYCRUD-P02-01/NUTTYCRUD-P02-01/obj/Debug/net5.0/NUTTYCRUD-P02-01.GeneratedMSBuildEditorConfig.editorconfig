@@ -1,0 +1,10 @@
+is_global = true
+build_property.TargetFramework = net5.0
+build_property.TargetPlatformMinVersion = 
+build_property.UsingMicrosoftNETSdkWeb = 
+build_property.ProjectTypeGuids = 
+build_property.PublishSingleFile = 
+build_property.IncludeAllContentForSelfExtract = 
+build_property._SupportedPlatformList = Android,iOS,Linux,macOS,Windows
+build_property.RootNamespace = NUTTYCRUD_P02_01
+build_property.ProjectDir = C:\Users\dinu8\Downloads\PHASE-01\NUTTY CRUD-02\NUTTYCRUD-P02-01\NUTTYCRUD-P02-01\

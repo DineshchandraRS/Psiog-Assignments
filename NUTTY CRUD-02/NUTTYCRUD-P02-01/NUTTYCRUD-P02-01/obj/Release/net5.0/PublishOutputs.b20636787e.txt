@@ -1,0 +1,6 @@
+C:\Users\dinu8\source\repos\NUTTYCRUD-P02-01\NUTTYCRUD-P02-01\bin\publish\NUTTYCRUD-P02-01.exe
+C:\Users\dinu8\source\repos\NUTTYCRUD-P02-01\NUTTYCRUD-P02-01\bin\publish\NUTTYCRUD-P02-01.dll
+C:\Users\dinu8\source\repos\NUTTYCRUD-P02-01\NUTTYCRUD-P02-01\bin\publish\NUTTYCRUD-P02-01.deps.json
+C:\Users\dinu8\source\repos\NUTTYCRUD-P02-01\NUTTYCRUD-P02-01\bin\publish\NUTTYCRUD-P02-01.runtimeconfig.json
+C:\Users\dinu8\source\repos\NUTTYCRUD-P02-01\NUTTYCRUD-P02-01\bin\publish\NUTTYCRUD-P02-01.pdb
+C:\Users\dinu8\source\repos\NUTTYCRUD-P02-01\NUTTYCRUD-P02-01\bin\publish\LINQtoCSV.dll
