@@ -1,6 +1,0 @@
-SalesID,SalesDate,SalesType,ItemID,CustomerID,QOS,SalesValue
-123,10-04-2022 00:00:00,wholesale,1,102,25,200
-124,22-03-2022 00:00:00,retail,2,102,12,3000
-125,11-04-2022 00:00:00,wholesale,2,102,20,1200
-122,12-04-2022 00:00:00,wholesale,2,102,20,1200
-121,13-04-2022 00:00:00,wholesale,2,102,5,300
