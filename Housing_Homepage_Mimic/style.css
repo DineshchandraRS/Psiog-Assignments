@@ -1,0 +1,839 @@
+* {
+    margin: 0;
+    padding: 0;
+    box-sizing: border-box;
+    font-family: 'Source Sans Pro', sans-serif;;
+  }
+
+  :root{
+      --bg-color: #fff;
+      --box-shadow: 2px 2px 18px rgb(14 52 54 / 15%);
+  }
+  
+  header {
+    width: 100%;
+    height: 100vh;
+    background-image: linear-gradient(rgba(0, 0, 0, 0.3), rgba(0, 0, 0, 0.15)),
+      url("bg-4.jpg");
+    background-repeat: no-repeat;
+    background-size: cover;
+    text-align: center;
+  }
+  nav {
+    width: 100%;
+    height: 15vh;
+    background: rgba(0, 0, 0, 0.2);
+    color: white;
+    justify-content: space-between;
+    align-items: center;
+    text-align: center;
+  }
+  .logo-img{
+    float: left;
+    position: relative;
+    text-align: center;
+    align-items: center;
+    width: 10rem;
+    height: 1.5rem;
+    left: 70px;
+    margin: 10px 15px 15px 10px;
+}
+.bg-div{
+    overflow: hidden;
+}
+
+.topnav a{
+    float: right;
+    color: white;
+    text-align: center;
+    padding: 14px 16px;
+    text-decoration: none;
+    font-size: 17px;
+}
+.container {
+    display: inline-block;
+    cursor: pointer;
+    
+  }
+  
+  .bar1, .bar2, .bar3 {
+    width: 10px;
+    height: 1px;
+    background-color: rgb(240, 14, 14);
+    margin: 3px 0;
+    
+    transition: 0.4s;
+  }  
+  main {
+    width: 100%;
+    height: 85vh;
+    display: flex;
+    justify-content: center;
+    align-items: center;
+    text-align: center;
+    color: black;
+  }
+  section h1{
+    margin: 30px 0 20px 0;
+    font-size: 55px;
+    font-weight: 700;
+    text-shadow: 2px 1px 5px white;
+    color: white;
+    
+  }
+  section a {
+    padding: 12px 30px;
+    
+    outline: none;
+    text-transform: uppercase;
+    font-size: 13px;
+    font-weight: 500;
+    text-decoration: none;
+    letter-spacing: 1px;
+    transition: all 0.5s ease;
+  }
+  input[type=text] {
+    align-items: center;
+    align-self: center;
+    padding: 6px;
+    border: none;
+    margin-top: 8px;
+    width: 300px;
+    height: 38px;
+    font-size: 12px;
+  }
+  section .btnone {
+    /*background: #00b894;*/
+    background: #fff;
+    color: #000;
+  }
+  
+  .btnone:hover {
+    background: #00b894;
+    color: white;
+  }
+  
+  section .btntwo {
+    background: #00b894;
+    color: white;
+  }
+  
+  .btntwo:hover {
+    background: #fff;
+    color: #000;
+  }
+  
+  .change_content:after {
+    content: "";
+    animation: changetext 10s infinite linear;
+    color: #00b894;
+  }
+.myhome{
+    background-image: url(bg-2.jpg);
+    background-size: cover;
+    color: black;
+    text-align:end;
+}
+
+.section__title--home{
+    color: black;
+    position: relative;
+}
+.section__title--housing {
+    color: #000;
+    text-align: center;
+    font-size: xx-large;
+    margin-bottom: 20px;
+}
+.block {
+    display: flex;
+    flex-direction: column;
+    align-items: center;
+    justify-content: center;
+    width: 120px;
+    height: 120px;
+    border-radius: 10px;
+    background-color: white;
+    cursor: pointer;
+    box-shadow: var(--box-shadow);
+    margin: 10px;
+}
+.container-1 {
+    display: flex;
+    flex-wrap: wrap;
+    justify-content: center;
+    gap: 20px;
+}
+.block img {
+    width: 40px;
+    height: 40px;
+    margin-top: 10px;
+}
+
+.head {
+    margin-top: 10px;
+    text-align: center;
+}
+
+
+.block img {  
+   width: 40px;
+   height: 40px;
+   position: absolute;   
+}
+.arrow{
+    box-shadow: var(--box-shadow);
+    position: relative;
+    width: 50px;
+    height: 25px;
+}
+
+.explore {
+    display: block;
+    margin: 0 auto 20px;
+    background-color: white;
+    border: 1px solid slateblue;
+    color: slateblue;
+    border-radius: 5px;
+    font-size: small;
+    width: 130px;
+    height: 30px;
+    cursor: pointer;
+}
+  .container-1 .block .img{
+    position: absolute;
+    display: flex;
+    justify-content: space-between;
+    top: 0;
+    left: 0;
+    width: 100%;
+    height: 100%;
+}
+
+/* Centering the Entire Properties Section */
+.properties {
+    background: #fbfbfb;
+    padding: 20px; /* Optional padding for better spacing */
+    display: flex;
+    flex-direction: column;
+    align-items: center; /* Centers the entire section horizontally */
+}
+
+/* Common Heading Styling */
+.heading {
+    text-align: center; /* Centers the text of the heading */
+    margin-bottom: 2rem; /* Uniform margin spacing */
+}
+
+.heading h1 {
+    font-size: xx-large;
+    color: black;
+}
+
+.heading p {
+    font-size: 1.2rem;
+}
+
+/* Properties Container */
+.properties-container {
+    display: flex;
+    flex-wrap: wrap;
+    gap: 2rem;
+    justify-content: center; /* Centers the boxes */
+    width: 100%; /* Allows container to take full width */
+    max-width: 1200px; /* Optional: sets a maximum width to keep the layout compact */
+}
+
+/* Box Styling */
+.properties-container .box {
+    background: #fff;
+    padding: 20px; /* Provides more space inside the box */
+    border-radius: 8px;
+    box-shadow: var(--box-shadow);
+    width: 320px; /* Adjusted width for better sizing */
+    cursor: pointer;
+    transition: transform 0.3s, box-shadow 0.3s;
+    text-align: center; /* Centers the content inside each box */
+}
+
+.properties-container .box:hover {
+    transform: translateY(-5px);
+    box-shadow: 0 5px 15px rgba(0, 0, 0, 0.1);
+}
+
+/* Image Styling */
+.properties-container .box img {
+    width: 100%; /* Ensures the image takes full width of the box */
+    height: 220px; /* Adjusted height for better visuals */
+    object-fit: cover;
+    border-radius: 5px;
+}
+
+/* Text Styling Inside Box */
+.properties-container .box h3 {
+    margin-top: 10px;
+    font-size: 1.3rem; /* Adjusted font size */
+    font-weight: 600;
+}
+
+.properties-container .box .content {
+    margin-top: 10px;
+}
+
+.properties-container .box .content p {
+    font-size: 1rem; /* Ensures readability */
+    line-height: 1.5;
+}
+
+.properties-container .box .content h3 {
+    margin-top: 8px;
+    font-size: 1.1rem;
+    color: #555;
+}
+
+/* Responsive Design */
+@media (max-width: 768px) {
+    .properties-container {
+        flex-direction: column;
+        align-items: center;
+    }
+
+    .properties-container .box {
+        width: 90%; /* Responsive box width */
+    }
+}
+
+
+
+/* General Styling for the Heading */
+.heading-5 {
+    text-align: center;
+    margin-bottom: 2rem;
+}
+.heading-5 h1 {
+    font-size: xx-large;
+    color: black;
+}
+.heading-5 p {
+    font-size: 1.2rem;
+}
+
+/* Section Background */
+.trending {
+    background: #fbfbfb;
+    padding: 20px 0; /* Adds padding to the top and bottom */
+    display: flex;
+    flex-direction: column;
+    align-items: center; /* Centers the section */
+}
+
+/* Grid Layout for Trending Container */
+.trending-container {
+    display: grid;
+    grid-template-columns: repeat(auto-fit, minmax(300px, 1fr)); /* Responsive grid */
+    gap: 2rem; /* Spacing between boxes */
+    max-width: 1200px; /* Limits the width of the container */
+    width: 100%; /* Ensures the container takes full width */
+    padding: 0 20px; /* Padding for container edges */
+    margin: auto; /* Centers the grid on the page */
+}
+
+/* Box Styling */
+.trending-container .box-2 {
+    background: #fff;
+    padding: 20px; /* Increased padding for a spacious feel */
+    box-shadow: var(--box-shadow);
+    border-radius: 8px; /* Rounded corners */
+    cursor: pointer;
+    transition: transform 0.3s, box-shadow 0.3s;
+    text-align: center; /* Centers text inside the box */
+}
+
+/* Hover Effect for Boxes */
+.trending-container .box-2:hover {
+    transform: translateY(-5px);
+    box-shadow: 0 5px 15px rgba(0, 0, 0, 0.1);
+}
+
+/* Image Styling */
+.trending-container .box-2 img {
+    width: 100%; /* Full width of the box */
+    height: 220px; /* Consistent height */
+    object-fit: cover;
+    border-radius: 5px; /* Rounded corners for images */
+}
+
+/* Text Styling Inside Boxes */
+.trending-container .box-2 h3 {
+    margin-top: 10px;
+    font-size: 1.3rem;
+    font-weight: 600;
+}
+
+.trending-container .box-2 .content-2 {
+    margin-top: 10px;
+}
+
+.trending-container .box-2 .content-2 p {
+    font-size: 1rem;
+    line-height: 1.5;
+}
+
+.trending-container .box-2 .content-2 h3 {
+    margin-top: 8px;
+    font-size: 1.1rem;
+    color: #555;
+}
+
+/* Responsive Design */
+@media (max-width: 768px) {
+    .trending-container {
+        grid-template-columns: 1fr; /* Single column for smaller screens */
+    }
+
+    .trending-container .box-2 {
+        width: 90%; /* Reduced width for better fit */
+    }
+}
+
+
+/* Heading Styling */
+.heading-1 {
+    text-align: center;
+    margin-bottom: 1rem;
+}
+.heading-1 h1 {
+    font-size: xx-large;
+    color: black;
+}
+.heading-1 p { /* Updated class to match the correct heading */
+    font-size: 1.2rem;
+}
+
+/* News Section */
+.news {
+    background: #fbfbfb;
+    padding: 20px; /* Added padding for better spacing */
+    display: flex;
+    flex-direction: column;
+    align-items: center; /* Centers the entire section */
+}
+
+/* News Container */
+.news-container {
+    display: flex;
+    flex-wrap: wrap; /* Allows for responsive wrapping */
+    gap: 3rem;
+    justify-content: center; /* Centers the boxes */
+    width: 100%;
+    max-width: 1200px; /* Optional: max width for a more compact layout */
+    padding: 0 20px; /* Adjusted padding for better responsiveness */
+}
+
+/* Box Styling */
+.news-container .box-1 {
+    background: #fff;
+    padding: 15px; /* Slightly increased for better spacing */
+    border-radius: 8px; /* Added border-radius for a modern look */
+    box-shadow: var(--box-shadow);
+    cursor: pointer;
+    transition: transform 0.3s, box-shadow 0.3s;
+    text-align: center;
+    width: 300px; /* Set width for uniform box size */
+}
+
+.news-container .box-1:hover {
+    transform: translateY(-5px);
+    box-shadow: 0 5px 15px rgba(0, 0, 0, 0.1);
+}
+
+/* Image Styling */
+.news-container .box-1 img {
+    width: 100%; /* Ensures the image takes the full width of the box */
+    height: 220px;
+    object-fit: cover;
+    border-radius: 5px;
+}
+
+/* Text Styling */
+.news-container .box-1 h3 {
+    margin-top: 10px;
+    font-size: 1.2rem; /* Increased for readability */
+    font-weight: 600;
+}
+
+.news-container .box-1 .content-1 {
+    margin-top: 10px; /* Added margin for spacing */
+}
+
+.news-container .box-1 .content-1 p {
+    font-size: 1rem; /* Standardized for readability */
+    line-height: 1.5;
+}
+
+/* Responsive Design */
+@media (max-width: 768px) {
+    .news-container {
+        flex-direction: column;
+        align-items: center;
+    }
+
+    .news-container .box-1 {
+        width: 90%; /* Responsive box width */
+    }
+}
+
+/* Heading Styling */
+.heading-2 {
+    text-align: center;
+    margin-bottom: 1rem;
+}
+.heading-2 h1 {
+    font-size: xx-large;
+    color: black;
+}
+.heading-2 p {
+    font-size: 1.2rem;
+}
+
+/* Solutions Section */
+.solution {
+    background: #fbfbfb;
+    padding: 20px; /* Adds padding for spacing */
+    display: flex;
+    flex-direction: column;
+    align-items: center; /* Centers the section */
+}
+
+/* Image Container */
+.sol {
+    display: flex;
+    flex-direction: row;
+    justify-content: center; /* Centers the images */
+    gap: 2rem; /* Adjusted gap for even spacing */
+    margin: 20px 0; /* Adds margin above and below */
+}
+
+/* Image Styling */
+.sol img {
+    width: 400px;
+    height: 300px;
+    object-fit: cover; /* Ensures images cover the space uniformly */
+    border-radius: 5px; /* Adds slight rounded corners */
+}
+
+/* Responsive Design */
+@media (max-width: 768px) {
+    .sol {
+        flex-direction: column; /* Stacks images vertically on smaller screens */
+        align-items: center;
+    }
+    .sol img {
+        width: 90%; /* Makes images more responsive */
+        height: auto; /* Maintains aspect ratio */
+    }
+}
+ 
+
+.heading-3{
+    text-align: center;
+    margin-bottom: 1rem;
+}
+.heading-3 h1{
+    font-size:xx-large;
+    color: black;
+    text-align: center;
+}
+
+.browse{
+    background: #fbfbfb;
+}
+/*browse*/
+.browse-container .links{
+    gap: 5em;
+}
+.links{
+    display:flex;
+    flex-direction: row;
+    padding: 0 50px;
+    justify-content: space-around;
+    grid-row-gap: 10px;
+    grid-column-gap: 10px;
+    cursor:pointer;
+    gap:3em;
+    margin-left: -180px;
+    position: relative;
+    top: 50px;
+    
+
+}
+.case{
+    display: flex;
+    flex-direction: row;
+    margin-bottom: 3rem;
+    position: relative;
+    
+
+}
+.links .case h4{
+    text-align: right;
+    right: 10px;
+    float: right;
+    
+}
+.browse-1{
+    position: relative;
+    left: 180px;
+}
+.browse-2{
+    position: relative;
+    left: 120px;
+}
+.browse-3{
+    position: relative;
+    left: 140px;
+}
+.rank-1{
+    align-items: center;
+    margin-top: 150px;
+    margin-bottom: 200px;
+    align-items: center;
+    display: flex;
+    justify-content: center;
+    margin-left: auto;
+    margin-right: auto;
+    width: 100%;
+
+}
+.group-1{
+    align-items: center;
+    align-items: center;
+    display: flex;
+    justify-content: center;
+    position: relative;
+    left: 0;
+    right: 0;
+    top: -20px;
+    color: black;
+    
+}
+.rea{
+    width: 250px;
+    height: 60px;
+}
+.title{
+    color: #000;
+    text-align: center;
+    font-size: 50px;
+}
+
+
+.cities-container{
+    display:flex;
+    flex-direction: row;
+    padding: 0 50px;
+    justify-content: space-around;
+    background-color: #000;
+    grid-row-gap: 10px;
+    grid-column-gap: 10px;
+   cursor:pointer;
+}
+.heading-4{
+    
+    color: #fff;
+    font-size: small;
+    display: flex;
+    flex-direction: row;
+    margin-bottom: 2px;
+
+
+}
+.heading-4 p{
+    margin-bottom: 2px;
+}
+
+
+footer {
+    background-color: #111;
+    color: white;
+    text-align: center;
+    padding: 1em 0 0; /* Only top padding */
+    font-size: 1.25rem;
+    position: relative;
+    
+}
+
+
+footer a { color: inherit;
+    text-decoration: none ;
+}
+
+.footer__link{
+    font-weight: var(--fw-bold);
+}
+.footer__link:hover,
+.social-list__link:hover{
+    opacity: 0.7;
+}
+
+
+.footer__link:hover{
+    text-decoration: underline;
+}
+
+.social-list{
+    list-style: none;
+    display: flex;
+    justify-content:left;
+    margin: 2em 0 0;
+    padding: 0;
+    position: relative;
+    top: 10px;
+    left: 45px;
+    margin-left: -20px;
+    
+}
+
+.social-list__item{
+    margin: 0 0.5em;
+}
+.social-list__link{
+    padding: 0.5em;
+}
+.footer-bottom{
+    position: relative;
+    top: 15px;
+    left: 65px;
+    
+}
+.footer-bottom p{
+    font-size: 14px;
+    text-transform: capitalize;
+    text-align: left;
+}
+
+.logo-img-1{
+    float: left;
+    position: relative;
+    align-items: center;
+    width: 10rem;
+    height: 1.5rem;
+    left: 60px;
+    margin: 10px 15px 15px 10px;
+    top: -30px;
+}
+
+.eco{
+    width: 170px;
+    height: 60px;
+    left: -590px;
+    position: relative;
+    top: 10px;
+}
+.eco-1{
+    width: 80px;
+    height: 60px;
+    position: relative;
+    left: -580px;
+    top: 10px;
+}
+.subtitle{
+    float: left;
+    font-size: small;
+    position: relative;
+    top: 80px;
+    left: -115px;
+}
+
+.company{
+    display:flex;
+    flex-direction: row;
+    padding: 0 50px;
+    justify-content: left;
+    row-gap:-10px ;
+    cursor:pointer;
+    font-size: x-small;
+    color:white;
+    float: left;
+    position: relative;
+    left: 300px;
+    top: -200px;
+    margin-top: 3rem;
+}
+.case-2{
+    color: #fff;
+    font-size: small;
+    display: flex;
+    flex-direction: row;
+    margin-bottom: 2px;
+    justify-content: left;
+    gap: 2rem;
+    text-align: left;
+}
+.title-1{
+    color: white;
+    float: right;
+    position: relative;
+    font-size: xx-small;
+    top: -160px;
+    left: -110px;
+}
+.app-1{
+    width: 120px;
+    height: 35px;
+    left: 325px;
+    position: relative;
+    top: -160px;
+}
+.app-2{
+    width: 120px;
+    height: 35px;
+    left: 340px;
+    position: relative;
+    top: -160px;
+}
+.qr{
+    width: 60px;
+    height: 60px;
+    position: relative;
+    top: -60px;
+    left: 75px;
+}
+.subtitle-1{
+    font-size: xx-small;
+    position: relative;
+    float: right;
+    top: -60px;
+    left: 80px;
+    text-align: left;
+}
+
+.title-3{
+    position: relative;
+    left: 85px;
+}
+.title-4{
+    position: relative;
+    left: 117px;
+}
+.title-5{
+    position: relative;
+    left: 82px;
+}
+
+/* Clearfix */
+.clearfix::after {
+    content: "";
+    clear: both;
+    display: table;
+}
+
+.footer + * {
+    margin-top: 0; /* Resets margin on the first sibling */
+}
+
+footer::after {
+    content: "";
+    display: table;
+    clear: both; /* Clears floated elements */
+}
